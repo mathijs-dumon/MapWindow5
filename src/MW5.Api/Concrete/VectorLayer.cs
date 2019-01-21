@@ -66,7 +66,7 @@ namespace MW5.Api.Concrete
 
         public void ReloadFromSource()
         {
-            this.ReloadFromSource(false);
+            this.ReloadFromSource(true);
         }
 
         public bool Open(string filename, bool forUpdate = false)
